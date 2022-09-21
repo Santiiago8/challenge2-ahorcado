@@ -1,0 +1,19 @@
+body{
+    font-family: 'Bungee Spice', cursive;
+}
+h1{
+    text-align: center;
+    padding: 10px;
+}
+.imagen{
+    max-height: 50px;
+    text-align: center;
+    margin-top: 20px;
+}
+.titulo-logo{
+    text-align: center;
+}
+header{
+    background-image: linear-gradient(to right, #fe641c,#000000,#000000,#fe641c);
+
+}
