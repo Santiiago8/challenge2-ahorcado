@@ -1,20 +1,38 @@
 body{
     font-family: 'Bungee Spice', cursive;
    /* background: url(images/orange-background.png);*/
-   background: radial-gradient(circle, rgba(0,0,0,1) 35%, rgba(254,100,28,1) 100%);
+  /* background: radial-gradient(circle, rgba(0,0,0,1) 35%, rgba(254,100,28,1) 100%);*/
+    background: url(images/background2.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 100vh;
 }
 h1{
-    text-align: center;
+    /*text-align: center;*/
     padding: 10px;
+    font-size: 20px;
 }
 .imagen{
     max-height: 50px;
-    text-align: center;
+    /*text-align: center;*/
     margin-top: 20px;
+    padding-left: 20px;
 }
 .titulo-logo{
-    text-align: center;
+   /* text-align: center;*/
 }
 header{
-    background-image: linear-gradient(to right, #fe641c,#000000,#000000,#fe641c);
+   /* background-image: linear-gradient(to right, #fe641c,#000000,#000000,#fe641c);
+    text-align: center;*/
+    margin-bottom: 20px;
+}
+main{
+    margin: auto;
+    width: 80%;
+    padding: 20px;
+    background: rgba(255, 255, 255, .2);
+    display: flex;
+    gap: 30px;
+}
+#imagen-ahorcado{
+    width: 450px;
 }
