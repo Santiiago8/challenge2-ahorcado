@@ -36,3 +36,53 @@ main{
 #imagen-ahorcado{
     width: 450px;
 }
+#palabra-adiviar{
+    height: 3em;
+}
+#palabra-adiviar span{
+    vertical-align: bottom;
+    font-size: 2em;
+    border-bottom: 2px solid black;
+    width: 30px;
+    text-align: center;
+    margin-right: 6px;
+    display: inline-block;
+}
+#letras{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+}
+#jugar{
+    padding: 5px;
+    text-align: center;
+    border-radius: 3px;
+    background-color:  rgba(0, 0, 0, .8);
+    font-family: 'Bungee Spice', cursive;
+    cursor: pointer;
+    transition: all 1s;
+}
+#jugar:hover{
+    background-color:  rgba(0, 0, 0, .5);
+}
+#letras button{
+    width: 28px;
+    padding: 6px 0;
+    text-align: center;
+    border-radius: 3px;
+    background-color:  rgba(0, 0, 0, .8);
+    font-family: 'Bungee Spice', cursive;
+    cursor: pointer;
+    transition: all 1s;
+}
+#letras button:hover{
+    background-color:  rgba(0, 0, 0, .5);
+}
+footer h2{
+    text-align: center;
+    font-size: 30px;
+}
+footer{
+    margin: 15px;
+}
